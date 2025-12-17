@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon"  href="images/MH-logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/css/line.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Marwa Harcharras | Portfolio</title>
+
+</head>
+<body>    
+
+    <div class="container">
+        
+        <!--header-->
+
+        <nav id="header">
+            <div class="nav-logo">
+                <a href="#">
+                    <p class="nav-name">MarwaHr</p>
+                </a>
+            </div>
+        
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#internships" class="nav-link">Internships</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>        
+
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch" onclick="toggleMode()">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+    
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+
+        </nav>
+
+        <!--main-->
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello, I'm <strong>Marwa Harcharras</strong>.</p>
+                    </div>
+                    
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    
+                    <div class="text-info">
+                        <p>
+                            I’m a <strong>fourth-year Industrial Engineering student </strong> at The National School Of Applied Sciences Of Kenitra, with a strong interest in  
+                            <strong>Lean thinking, data analysis and continuous improvement</strong>.  
+                        </p>
+                        <p style="margin-top: 10px;">
+                            I love exploring how technology and data can enhance industrial performance and decision-making.  
+
+                        </p>
+            
+                        <p class="text-ending">
+                            Let’s build more efficient and optimized industries together.  
+                        </p>
+
+                        <div class="scroll-down">
+                            <a id="scrollLink" href="#about">Learn more about me <i class="fas fa-chevron-down"></i>
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="text-btn">
+                        <a href="#contact" class="btn">Contact me</a>
+
+                        <a href="assets/CV_Marwa Harcharras_PFA_Génie Industriel_ENSA KENITRA_Version_Française.pdf" download="Marwa_Harcharras_CV_French.pdf" style="text-decoration: none; color: white;" class="btn">
+                            Download French CV <i class="uil uil-file"></i>
+                        </a>
+                        
+                        <a href="assets/CV_Marwa Harcharras_PFA_Génie Industriel_ENSA KENITRA_Version_Anglaise.pdf" download="Marwa_Harcharras_CV_English.pdf" style="text-decoration: none; color: white;" class="btn">
+                            Download English CV <i class="uil uil-file"></i>
+                        </a>
+
+                        <a href="assets/CV Vidéo_Marwa Harcharras_PFA_Génie Industriel_ENSA KENITRA.mp4" download="Marwa_Harcharras_Video_CV.mp4" style="text-decoration: none; color: white;" class="btn">
+                            Download Video CV <i class="uil uil-file"></i>
+                        </a>
+                                         
+                    </div>
+
+                    <div class="social_icons">                        
+                        <a class="icon" href="https://www.linkedin.com/in/marwa-harcharras-114ba0318/" target="_blank">
+                            <i class="uil uil-linkedin-alt" ></i>               
+                        </a>
+                    
+                        <a class="icon" href="https://github.com/mar12345-bit" target="_blank">
+                            <i class="uil uil-github-alt"></i>   
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-image">
+                    <div class="image" >
+                        <img src="images/profile-photo.png" alt="Profile-photo">
+                    </div>
+                </div>
+            </section>
+
+            <!-- about box -->
+             <section class="section" id="about">
+                <div class="about-header">
+                    <h1 class="about-me-title" >About Me</h1>
+                </div>
+                <section class="about-and-education">
+                    
+                    <!-- About Me Section -->
+                    <div class="about-section">
+                        <div class="about-info"> 
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="images/profile-photo.png" alt="Profile-photo" class="profile" />
+                                    <h2 class="pro-title">Industrial Engineering Student | Continuous Improvement & Digitalization Enthusiast</h2>
+                                    
+                                    <p>
+                                        I am a <strong>fourth-year Industrial Engineering student</strong> at <strong>The National School Of Applied Sciences Of Kenitra</strong>, passionate about <strong>continuous improvement, Lean methodologies, and the digital transformation of industrial processes</strong>. My goal is to use <strong>data-driven insights</strong> to optimize industrial performance and support the digital transformation of manufacturing systems.
+                                    </p>
+                        
+                                    <p style="margin-top: 28px;">
+                                        With skills in <strong>Lean Manufacturing, Six Sigma </strong>, data analysis using <strong>Python, R, SQL</strong>, and visualization tools like<strong> Power BI and Tableau</strong>, I focus on identifying waste, optimizing workflows, and supporting data-driven decision-making in industrial environments.
+                                    </p>
+
+                                    <p style="margin-top: 28px;">
+                                        I am eager to apply my knowledge in<strong> continuous improvement and digital solutions</strong> to solve real-world industrial challenges, helping companies accelerate their digital transformation and achieve operational excellence.                                    
+                                    </p>
+                    
+                                </figcaption>
+                            </figure>
+                        
+                            <!-- Download CV Buttons -->
+                            <a href="assets/CV_Marwa Harcharras_PFA_Génie Industriel_ENSA KENITRA_Version_Française.pdf" download="Marwa_Harcharras_CV_French.pdf" style="text-decoration: none; color: white;" class="about-me-btn ">
+                                Download French CV <i class="uil uil-file"></i>
+                            </a>
+                            
+                            <a href="assets/CV_Marwa Harcharras_PFA_Génie Industriel_ENSA KENITRA_Version_Anglaise.pdf" download="Marwa_Harcharras_CV_English.pdf" style="text-decoration: none; color: white;" class="about-me-btn ">
+                                Download English CV <i class="uil uil-file"></i>
+                            </a>
+
+
+                            <div class="qr-codes-container">
+                                <div class="qr-code">
+                                    <img src="images/Video CV QR code.png" alt="QR Code Video CV">
+                                    <p>Scan to download My video CV</p>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>                        
+                    </div>
+                
+                     <!--Education Section-->                    
+                    <div class="education-section">
+                        <div class="education-header">
+                            <h1>Education</h1>
+        
+                        </div>
+                        <div class="education-timeline">
+                             <!--Timeline Items-->
+                            <div class="timeline-item">
+                                <span class="timeline-point"></span>
+                                <div class="timeline-content">
+                                    <h3>ENSA - Kenitra (2022 - 2027)</h3>
+                                    <p>State Engineer's degree in Industrial Engineering (ongoing)
+                                        <p class="with-indent">Integrated preparatory classes with High Honors</p>
+                                        <p class="with-indent">Engineering cycle in Industrial Engineering</p>
+                            
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-point"></span>
+                                <div class="timeline-content">
+                                    <h3>Hassan 2 High School – Laayoune (2021 - 2022)</h3>
+                                    <p class="with-indent">Baccalaureate: Mathematics and Science A, French option with High Honors</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </section>
+             </section>
+            
+             <!-- Internship box -->
+
+             <section class="section" id="internships">
+                <div class="top-header">
+                    <h1>Internships</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-card project-card1">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="images/Stellantis_logo_blue_background.jpg" alt="Stellantis Automotive Assembly">
+                                </div>
+                                <h3>Observation Internship – Stellantis KENITRA - Assembly Department</h3>
+                                <p>Immersion in large-scale automotive assembly operations, focusing on production flow organization, workstation balancing, and continuous improvement practices.</p>
+                                <button class="learn-more-btn">Learn More</button>
+                            </div>
+                            <div class="card-back">
+                                <h3>Internship Details</h3>
+                                <p><strong>Main Missions:</strong> Discovery of high-volume automotive assembly operations and analysis of production flow organization on the shop floor.</p>
+                                <p><strong>Coordination & Operations:</strong> Monitoring workstation balancing and ensuring coordination between Assembly, Logistics, and Quality teams to maintain production efficiency.</p>
+                                <p><strong>Lean & Continuous Improvement:</strong> Reinforcement of Lean tools such as 5S, Kaizen, 5M, and QQOQCCP to support problem-solving and process optimization.</p>
+                                <p><strong>Performance & Quality:</strong> Observation of dysfunction management, corrective actions implementation, and real-time performance monitoring at the operational level.</p>
+                                <button class="return-btn">Return to Front</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+             <!--skills box-->
+             <section class="section" id="skills">
+                <div class="top-header">
+                    <h1>My Skills</h1>
+                </div>
+                <div class="skill-container">
+                 
+                    
+                    <div class="skill skill-left">
+                        
+                        
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Power BI</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per powerbi"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Tableau</span>
+                                <span><span class="tooltip">60%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per tableau"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Lean Management</span>
+                                <span><span class="tooltip">60%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per lean"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Excel</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per excel"></span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Diagramme de Gantt</span>
+                                <span><span class="tooltip">80%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per gantt"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Méthode PERT</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per pert"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">MS Project</span>
+                                <span><span class="tooltip">75%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per msproject"></span>
+                                </div>
+                            </div>
+                        </div>
+                                        
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">SQL</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per sql"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Matplotlib</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per matplotlib"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Numpy</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per numpy"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="skill skill-right">
+
+                        
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Pandas</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per pandas"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Python</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per python"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">R</span>
+                                <span><span class="tooltip">60%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per r"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">VBA</span>
+                                <span><span class="tooltip">60%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per vba"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">HTML</span>
+                                <span><span class="tooltip">80%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per html"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">CSS</span>
+                                <span><span class="tooltip">80%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per css"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">Bootstrap</span>
+                                <span><span class="tooltip">80%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per bootstrap"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">C</span>
+                                <span><span class="tooltip">70%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per c"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="skill-box">
+                            <div class="first-div">
+                                <span class="title">C++</span>
+                                <span><span class="tooltip">60%</span></span>
+                            </div>
+                            <div class="second-div">
+                                <div class="skill-bar">
+                                    <span class="skill-per cpp"></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div> 
+                </div>
+             </section>
+
+             <!--project box-->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-card project-card1">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="images/Lean-Manufacturing.webp" alt="Lean Manufacturing Project">
+                                </div>
+                                <h3>Performance Evaluation of Machine M – Industrial Club CIELK Competition</h3>
+                                <p>Awarded First Prize in the team category. Analyzed the performance of Machine M in an automotive cable manufacturing plant to optimize performance and improve quality.</p>
+                                <button class="learn-more-btn">Learn More</button>
+                            </div>
+                            <div class="card-back">
+                                <h3>Project Details</h3>
+                                <p><strong>Objectives:</strong> Optimize the performance and quality of Machine M in an automotive cable production line.</p>
+                                <p><strong>Methods and Tools:</strong> Created Power BI dashboards to monitor KPIs, applied methodologies such as 5S, DMAIC, PDCA, TPM, and Poka-Yoke for process analysis and improvement.</p>
+                                <p><strong>Web Application – Digital Lean Factory:</strong> Developed an application for tracking performance, analyzing KPIs (availability rate, performance rate, quality rate, OEE), managing waste (Muda), maintenance, and supporting 5S practices for improved work organization and efficiency.</p>
+                                <button class="return-btn">Return to Front</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card project-card2">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="images/Statistics-photo.jpg" alt="Statistics Project">
+                                </div>
+                                <h3>Understanding AI Adoption in Higher Education</h3>
+                                <p>Conducted an in-depth statistical analysis to assess students' perceptions of AI adoption in academic environments, evaluating its impact on learning and teaching methodologies.</p>
+                                <button class="learn-more-btn">Learn More</button>
+                            </div>
+                            <div class="card-back">
+                                <h3>Project Overview</h3>
+                                <p><strong>Objectives:</strong> Explore the attitudes of engineering students towards AI integration in education, identifying key factors influencing adoption.</p>
+                                <p><strong>Methodology:</strong> Designed and analyzed survey data using R, applying hypothesis testing and descriptive statistics to uncover meaningful trends.</p>
+                                <p><strong>Key Insights:</strong> Investigated correlations between students’ background, familiarity with AI tools, and perceived challenges in AI adoption.</p>
+                                <p><strong>Skills Applied:</strong> Data collection, statistical modeling, hypothesis testing, and data visualization in R.</p>
+                                <button class="return-btn">Return to Front</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card project-card3">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="images/data-analysis.jpg" alt="SQL Data Analysis Project">
+                                </div>
+                                <h3>SQL Data Analysis – Job Market Insights for Data Analysts</h3>
+                                <p>Analyzed job market data to identify salary trends, in-demand skills, and the best learning paths for aspiring data analysts.</p>
+                                <p><a href="https://github.com/mar12345-bit/Data_Analysis_SQL/tree/main" target="_blank" class="check-link"><i class="fas fa-link" style="color: #8749f2;"></i> Check it out on GitHub</a></p>
+                                <button class="learn-more-btn">Learn More</button>
+                            </div>
+                            <div class="card-back">
+                                <h3>Project Overview</h3>
+                                <p><strong>Objectives:</strong> To analyze job market trends, focusing on salary data and the skills required for high-paying roles in the field of data analysis.</p>
+                                <p><strong>Methodology:</strong> Applied SQL and PostgreSQL to query and analyze large datasets, identifying correlations between skills and salaries.</p>
+                                <p><strong>Key Findings:</strong> Identified top-paying roles in data analytics, the most requested technical skills, and the optimal learning paths for career advancement.</p>
+                                <p><strong>Skills Applied:</strong> Advanced SQL querying, data aggregation, and analysis of job market trends.</p>
+                                <button class="return-btn">Return to Front</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </section>
+
+             <!--contact box-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>marwa<span>.</span>harcharras7@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Phone: 07 60 81 04 47</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <form action="" id="contact-form">
+                            <div class="form-control">
+                                <div class="form-inputs">
+                                    <input type="text" name="user_name" class="input-field" placeholder="Your Name" required>
+                                    <input type="email" name="user_email" class="input-field" placeholder="Your Email" required>
+    
+                                </div>
+                                <div class="text-area">
+                                    <input type="text" name="user_subject" class="input-subject" placeholder="Your Subject" required>
+                                    <textarea name="user_message" placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn">Send Message<i class="uil uil-message"></i></button>
+                                    <p class="contact_message" id="contact-message"></p>
+
+                                </div>
+                            </div>
+
+                        </form>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--footer-->
+
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#internships">Internships</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="footer-social-icons">
+                
+                <a class="icon" href="https://www.linkedin.com/in/marwa-harcharras-114ba0318/" target="_blank">
+                    <i class="uil uil-linkedin-alt" ></i>               
+                </a>
+                
+            
+                <a class="icon" href="https://github.com/mar12345-bit" target="_blank">
+                    <i class="uil uil-github-alt"></i>    
+
+                </a>
+                
+            </div>
+
+            <div class="bottom-footer">
+                <p>&copy; <a href="#home" style="text-decoration: none;  color: white; padding-bottom: 1px; border-bottom: 2px solid white;">Marwa Harcharras</a> - All rights reserved 2025</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
